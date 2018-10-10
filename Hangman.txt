@@ -1,0 +1,17 @@
+Title: The game of Hangman.
+	In this Program, A word is chosen at random from a list
+and the user must guess the word letter by letter before running
+out of attempts.
+
+Functions Used:
+Random
+User Defined Functions
+List
+
+Description:
+	In this program a UDF is created in which list of words
+were created. Some empty list were created for storing of the guesses
+Then a list is created for hiding the correct word and use as  '_' 
+Then the user is asked for the guess if the guess is not alpha or the 
+guess is more then one letter then error is introduced. If the guess 
+is correct the the hidden block replaces by the guess letter. 
